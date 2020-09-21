@@ -13,3 +13,16 @@
 .ds4.disconnected div {
     display: none;
 }
+
+.ds4 .back, .ds4 .start {
+    background: url(start.png);
+    width: 28px;
+    height: 46px;
+    opacity: 0;
+}
+
+.ds4 .back.pressed, .ds4 .start.pressed {
+    /* background-position-y: -21px; */
+    /* margin-top: 2px; */
+    opacity: 1;
+}
